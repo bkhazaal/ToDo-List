@@ -1,4 +1,4 @@
-.container1 {
+.container1, .container2, .container3 {
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -6,21 +6,13 @@
 
 h1 {
     font-size: 60px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-}
-
-.container2 {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+    font-family:'Trebuchet MS';
 }
 
 #addlist {
     font-size: x-large;
     background-color: rgb(113, 255, 113);
     border-style: hidden;
-    font-weight: bold;
     height: 45px;
     width: 200px;
 }
@@ -30,20 +22,21 @@ h1 {
 
 }
 
-.container3 {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
 input {
+    text-align: center;
     height: 30px;
-    display: block;
+    border-color: black;
     margin-bottom: 10px;
     text-align: center;
 }
 
+#box {
+    display: block;
+    margin: auto;
+}
+
 p {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS';
     text-align: center;
 }
+

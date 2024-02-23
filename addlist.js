@@ -12,8 +12,9 @@ BUTTON.addEventListener('click', () => {
     const P2 = document.createElement("p")
     P2.textContent = "Description:";
     const INPUT2 = document.createElement("input");
-    newlistDiv.appendChild(P2);
-    newlistDiv.appendChild(INPUT2);
+    const newlistDiv2 = document.getElementById('newlist2');
+    newlistDiv2.appendChild(P2);
+    newlistDiv2.appendChild(INPUT2);
 
 
     console.log('yay!');
