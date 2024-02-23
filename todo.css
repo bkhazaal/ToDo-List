@@ -30,7 +30,7 @@ input {
     text-align: center;
 }
 
-#box {
+#newlist, #newlist2 {
     display: block;
     margin: auto;
 }
