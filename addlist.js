@@ -1,3 +1,5 @@
 const BUTTON = document.getElementById('addlist');
-BUTTON.addEventListener("click", BUTTON);
-
+BUTTON.addEventListener('click', () => {
+    console.log('yes')
+    
+});

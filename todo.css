@@ -16,16 +16,16 @@ h1 {
     padding: 10px;
 }
 
-#addList {
+#addlist {
     font-size: x-large;
     background-color: rgb(113, 255, 113);
     border-style: hidden;
     font-weight: bold;
     height: 45px;
-    width: 300px;
+    width: 200px;
 }
 
-#addList:hover {
+#addlist:hover {
     background-color: rgb(95, 217, 95);
 
 }
