@@ -16,7 +16,15 @@ BUTTON.addEventListener('click', () => {
     newlistDiv2.appendChild(P2);
     newlistDiv2.appendChild(INPUT2);
 
+    const BUTTON2 = document.createElement("button");
+    BUTTON2.textContent = "ADD LIST"
+    const newlistDiv3 = document.getElementById('addbutton');
+    newlistDiv3.appendChild(BUTTON2);
 
     console.log('yay!');
     
 },{once : true});
+
+function addButton() {
+
+}

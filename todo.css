@@ -1,4 +1,4 @@
-.container1, .container2, .container3 {
+.container1, .container2 {
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -23,16 +23,13 @@ h1 {
 }
 
 input {
-    text-align: center;
     height: 30px;
+    display: block;
+    margin-right: auto;
+    text-align: center;
+    margin-left: auto;
     border-color: black;
     margin-bottom: 10px;
-    text-align: center;
-}
-
-#newlist, #newlist2 {
-    display: block;
-    margin: auto;
 }
 
 p {
