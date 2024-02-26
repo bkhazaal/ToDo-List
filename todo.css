@@ -9,7 +9,7 @@ h1 {
     font-family:'Trebuchet MS';
 }
 
-#addlist {
+button {
     font-size: x-large;
     background-color: rgb(113, 255, 113);
     border-style: hidden;
@@ -17,7 +17,7 @@ h1 {
     width: 200px;
 }
 
-#addlist:hover {
+button:hover {
     background-color: rgb(95, 217, 95);
 
 }
@@ -37,3 +37,8 @@ p {
     text-align: center;
 }
 
+#addbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

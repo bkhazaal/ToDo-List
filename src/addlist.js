@@ -1,7 +1,7 @@
 const BUTTON = document.getElementById('addlist');
 
+function addList() { 
 BUTTON.addEventListener('click', () => {
-
     const P1 = document.createElement("p")
     P1.textContent = "List Name:";
     const INPUT1 = document.createElement("input");
@@ -17,14 +17,12 @@ BUTTON.addEventListener('click', () => {
     newlistDiv2.appendChild(INPUT2);
 
     const BUTTON2 = document.createElement("button");
-    BUTTON2.textContent = "ADD LIST"
-    const newlistDiv3 = document.getElementById('addbutton');
+    BUTTON2.textContent = "Add List"
+    const newlistDiv3 = document.getElementById("addbutton");
     newlistDiv3.appendChild(BUTTON2);
 
     console.log('yay!');
     
-},{once : true});
+},{once : true})};
 
-function addButton() {
-
-}
+addList();
